@@ -241,7 +241,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'backgroundColor
         dcc.Tab(label='About Us', children=[
             html.Div(style={'padding': '20px'}, children=[
                 html.H2('About Us'),
-                html.P('This dashboard was created by Mian Ibrahim Naveed and Rana Mohsin as a project to explore and visualize music data from Spotify.'),
+                html.P('This dashboard was created by Mian Ibrahim Naveed as a project to explore and visualize music data from Spotify.'),
                 html.P('Technologies used include Python, Plotly, Dash, Pandas, and Scikit-learn.'),
                 html.P('For any inquiries, please contact us at example@email.com.')
             ])
